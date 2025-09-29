@@ -120,6 +120,7 @@ void setup() {
 }
 
 void loop() {
+  sleep(0.2);
   lv_timer_handler();
   ui_tick();
 }
